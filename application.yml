@@ -1,15 +1,13 @@
 ﻿spring:
   profiles:
-    active: 
-    - dev
----
+    active: dev
+--- 
 spring:
   profiles: dev
   application:
     name: springcloud-config-ictehi-dev
 ---
 spring:
-  profiles: test
+  profiles: text
   application:
-    name: springcloud-config-ictehi-test
-
+    name: springcloud-config-ictehi-text
