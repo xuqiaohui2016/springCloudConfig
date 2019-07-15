@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-ictehi-dev
+---
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-ictehi-test
+
